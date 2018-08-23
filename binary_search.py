@@ -1,16 +1,24 @@
 from math import floor
 
 
+def append(element, seq=None):
+    if seq is None:
+        seq = []
+    seq.append(element)
+    return seq
+
+
 def search(numbers, start, end, value):
     mid = floor((start + end) / 2)
-    if len(numbers) > 0:
+    if len(numbers) > 0 and start < end:
         if numbers[mid] == value:
             return mid
         elif numbers[mid] > value:
             return search(numbers, start, mid - 1, value)
         elif numbers[mid] < value:
             return search(numbers, mid + 1, end, value)
-        else:
+        elif start == end:
+            print("Else triggered")
             return -1
     else:
         return "Array has length less than 1"
@@ -18,7 +26,8 @@ def search(numbers, start, end, value):
 
 arr = [1, 5, 4, 3, 4, 5, 5, 6, 2, 4]
 # arr1 = [1, 5, 4, 10, 39, 2, 6, 8, 3]
-arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+arr1 = [1, 3, 5, 7, 9]
 arr = set(arr)
 
 arr1.sort()
@@ -29,7 +38,7 @@ print(arr)
 
 # num = input("Enter number to be searched: ")
 
-index = search(arr1, 0, len(arr1) - 1, 3)
+index = search(arr1, 0, len(arr1) - 1, 2)
 print("Index:", index if index != -1 else "Item not found")
 
 index = search(arr, 0, len(arr) - 1, 3)
