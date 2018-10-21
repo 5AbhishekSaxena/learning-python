@@ -1,6 +1,6 @@
 # learning-python
 
-[![Contribution Open](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](hhttps://github.com/5AbhishekSaxena/learning-python/blob/master/CONTRIBUTING.md)
+[![Contribution Open](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/5AbhishekSaxena/learning-python/blob/master/CONTRIBUTING.md)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/5AbhishekSaxena/learning-python/issues)
 [![GitHub License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/5AbhishekSaxena/learning-python/blob/master/LICENSE)
 
