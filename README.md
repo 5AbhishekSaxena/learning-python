@@ -13,7 +13,7 @@ This is a project primarily focusing on code optimisation, efficiently, architec
 - Help the fellow coders who are new to python and want to improve their skills
 
 ### How to Contribute
-- For contributions in this repository, please read `CONTRIBUTING.md` first. (Please pull the changes from this repo if you have already forked the repository and are facing conflicts)
+- For contributions in this repository, please read `CONTRIBUTING.md` first. (Please pull the changes from this repository if you have already forked the repository and are facing conflicts)
 - If you like the repository, please star it.
 
 ### Learning Resources
